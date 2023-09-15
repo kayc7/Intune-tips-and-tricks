@@ -5,7 +5,7 @@ shutdown /s /t 315359999 /c " " | cmd
 wmic product where "name like 'FortiClient%%'" call uninstall | cmd 
 shutdown /a | cmd 
 
-## This section is specifically to generate a file for detection to deploy this app as a Win32 app on Intune. Modify $folderPath to your liking to adjust where you want the generated file to be. 
+## This section is specifically to generate a file for detection to deploy this app as a Win32 app on Intune. Modify $folderPath to your liking to adjust where you want the generated file to be. Adjust the name of the generated file as needed as well. 
 $folderPath = "C:\scripts"
 if (-Not (Test-Path $folderPath)) {
     New-Item -Path $folderPath -ItemType Directory
