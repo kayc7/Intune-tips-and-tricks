@@ -1,4 +1,4 @@
-# Welcome to my repo of Intune tips and tricks!
+# Welcome to my page of Intune tips and tricks!
 This repo contains a bunch of stuff I've learned over my time working in Intune and some of these things might really serve to help you with any issues you find in Intune.<br>
 Subdirectories contain specific fixes and scripts. Continue reading below to find more general tips and tricks that you can apply to a majority of deployments on Intune. 
 
