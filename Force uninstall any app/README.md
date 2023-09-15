@@ -2,4 +2,4 @@
 
 I resolved this by using the wmic utility in CMD. This allows us to uninstall any app in *Programs and Features* Control Panel. The script included is specifically to uninstall Forticlient, adjust to your liking. 
 
-** Please remember that this only works for programs listed in *Programs and Features*.
+**Please remember that this only works for programs listed in *Programs and Features*.
