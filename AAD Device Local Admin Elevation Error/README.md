@@ -9,11 +9,11 @@ runas /user:AzureAD\[device administrator email]@domain.com "Powershell.exe"
 
 3. Enter password for admin user account
 4. New Powershell window should open
-5. In the new window, run 
+5. In the new window, run the below command 
 
 ```
 start-process -verb runas powershell.exe
 ```
 
-6. Accept UAC elevation
-7. Admin Powershell window spawns, the error should also clear from UAC prompts from now on
+6. Accept the UAC elevation that pops up
+7. Admin Powershell window spawns. Now try to run whatever app you needed to run as admin again and enter your admin credentials. The error should now clear. 
