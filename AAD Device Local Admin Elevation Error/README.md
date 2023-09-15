@@ -1,4 +1,4 @@
-E** For whatever reason, sometimes random devices have an issue with granting administrative privileges using the AAD device local admin credentials. 
+** For whatever reason, sometimes random devices have an issue with granting administrative privileges using the AAD device local admin credentials. 
 This can be resolved using the steps below. ** <br>
 1. Open Powershell window as the standard user. (Win + R, powershell) 
 2. Enter the below command, make sure to replace [device administrator email] and [domain.com] with yours.
