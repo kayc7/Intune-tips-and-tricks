@@ -4,7 +4,7 @@ Subdirectories contain specific fixes and scripts. Continue reading below to fin
 
 # General tips and tricks for Intune 
 
-#### Deploying Powershell scripts
+### Deploying Powershell scripts
 I see a lot of people online recommending the below as the install command for PS scripts deployed as Win32 apps.<br>
 ```powershell.exe -noprofile -executionpolicy bypass -file .\SCRIPT.ps1```
 
