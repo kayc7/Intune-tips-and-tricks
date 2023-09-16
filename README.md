@@ -5,7 +5,7 @@ Subdirectories contain specific fixes and scripts. This main page contains gener
 # General tips and tricks for Intune 
 
 <details>
-<summary>Install command for Powershell scripts as Win32 apps</summary><br>
+<summary>Install command for Powershell scripts as Win32 apps</summary>
 Many online recommend the below as the install command for PS scripts deployed as Win32 apps.<br>
 
 ```powershell.exe -noprofile -executionpolicy bypass -file .\SCRIPT.ps1```
