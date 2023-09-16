@@ -1,5 +1,5 @@
 <#The shutdown commands featured here are specifically to prevent the uninstallers from forcing a computer reboot. Apps like Forticlient force an instant reboot after an uninstall via wmic.
-After the uninstall command is completed, it then cancels all shutdown commands in queue, including the 10 year one and the one initiated by the uninstaller. #>
+After the uninstall command is completed, it then cancels all shutdown commands in queue, including the 10 year duration and the one initiated by the uninstaller. #>
 By engaging a shutdown with a timer of 10 years, it will prevent any other reboot command from happening
 shutdown /s /t 315359999 /c " " | cmd
 wmic product where "name like 'FortiClient%%'" call uninstall | cmd 
