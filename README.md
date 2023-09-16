@@ -10,7 +10,7 @@ Many online recommend the below as the install command for PS scripts deployed a
 
 ```powershell.exe -noprofile -executionpolicy bypass -file .\SCRIPT.ps1```
 
-However, this initiates a 32-bit Powershell host. This is necessary if you're deploying to 32 bit machines, but you're probably deploying to a fllet of 64 bit-only machines. 
+However, this initiates a 32-bit Powershell host. This is necessary if you're deploying to 32 bit machines, but you're probably deploying to a fleet of 64 bit-only machines. 
 With a 32-bit Powershell host, we are limited on the cmdlets we can use. Instead of the above install command, use this instead to initiate as a 64-bit host. If you ever had PS scripts fail as a Win32 app, the use of 32-bit Powershell host is likely why.<br>
 
 ```%WINDIR%\sysnative\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy bypass -windowstyle hidden -file .\SCRIPT.ps1```
