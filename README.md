@@ -7,7 +7,8 @@ Subdirectories contain specific fixes and scripts. This main page contains gener
 <details>
 <summary>Install command for Powershell scripts as Win32 apps</summary>
 Many online recommend the below as the install command for PS scripts deployed as Win32 apps.<br>
-
+<br>
+  
 ```powershell.exe -noprofile -executionpolicy bypass -file .\SCRIPT.ps1```
 
 However, this initiates a 32-bit Powershell host. This is necessary if you're deploying to 32 bit machines, but you're probably deploying to a fleet of 64 bit-only machines. 
